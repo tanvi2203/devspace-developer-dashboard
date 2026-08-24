@@ -1,1 +1,6 @@
-console.log("DevSpace Week 1 loaded successfully.");
+const menuButton = document.getElementById("menuButton");
+const sidebar = document.getElementById("sidebar");
+
+menuButton.addEventListener("click", function () {
+    sidebar.classList.toggle("show-sidebar");
+});

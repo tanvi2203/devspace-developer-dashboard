@@ -8,17 +8,17 @@
     <title>DevSpace</title>
 
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Sidebar -->
-
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
 
         <div class="logo">
             <h2>DevSpace</h2>
@@ -36,6 +36,7 @@
         </nav>
 
         <div class="user">
+
             <div class="user-icon">
                 T
             </div>
@@ -50,26 +51,32 @@
     </aside>
 
 
-    <!-- Main Content -->
-
     <main class="main-content">
-
-        <!-- Header -->
 
         <section class="header" id="dashboard">
 
-            <div>
-                <p class="welcome">
-                    Welcome back!
-                </p>
-                <h1>Your Developer Workspace</h1>
-                <p>
-                    Keep track of your projects, tasks and learning progress.
-                </p>
+            <div class="mobile-header">
+
+                <button class="menu-button" id="menuButton">
+                    ☰
+                </button>
+
+                <div>
+                    <p class="welcome">
+                        Welcome back!
+                    </p>
+
+                    <h1>Your Developer Workspace</h1>
+
+                    <p>
+                        Keep track of your projects, tasks and learning progress.
+                    </p>
+                </div>
+
             </div>
 
             <div class="week">
-                Week 1
+                Week 2
             </div>
 
         </section>
@@ -114,14 +121,17 @@
 
 
             <div class="task">
+
                 <input type="checkbox">
+
                 <div>
                     <h3>Plan the DevSpace layout</h3>
+
                     <p>
                         Decide which sections should be included in the dashboard.
                     </p>
-
                 </div>
+
                 <span class="tag planning">
                     Planning
                 </span>
@@ -130,9 +140,12 @@
 
 
             <div class="task">
+
                 <input type="checkbox">
+
                 <div>
                     <h3>Create the sidebar</h3>
+
                     <p>
                         Add navigation links for different parts of the dashboard.
                     </p>
@@ -146,9 +159,12 @@
 
 
             <div class="task">
+
                 <input type="checkbox">
+
                 <div>
                     <h3>Build dashboard cards</h3>
+
                     <p>
                         Create cards for statistics and project information.
                     </p>
@@ -168,19 +184,23 @@
         <section class="projects" id="projects">
 
             <div class="section-title">
+
                 <div>
                     <p>MY WORK</p>
                     <h2>Current Projects</h2>
                 </div>
+
             </div>
 
 
             <div class="project-container">
+
                 <div class="project-card">
-                    <p class="project-type">
-                        FRONTEND
-                    </p>
+
+                    <p class="project-type">FRONTEND</p>
+
                     <h3>DevSpace Dashboard</h3>
+
                     <p>
                         A dashboard to manage development tasks, projects and skills.
                     </p>
@@ -198,10 +218,11 @@
 
 
                 <div class="project-card">
-                    <p class="project-type">
-                        LEARNING
-                    </p>
+
+                    <p class="project-type">LEARNING</p>
+
                     <h3>JavaScript Practice</h3>
+
                     <p>
                         A collection of exercises to improve JavaScript skills.
                     </p>
@@ -219,10 +240,11 @@
 
 
                 <div class="project-card">
-                    <p class="project-type">
-                        WEB DESIGN
-                    </p>
+
+                    <p class="project-type">WEB DESIGN</p>
+
                     <h3>Responsive UI Challenge</h3>
+
                     <p>
                         A project focused on learning responsive web design.
                     </p>
@@ -258,7 +280,9 @@
 
 
             <div class="skills-container">
+
                 <div class="skill-card">
+
                     <div class="skill-name">
                         <h3>HTML</h3>
                         <span>85%</span>
@@ -272,6 +296,7 @@
 
 
                 <div class="skill-card">
+
                     <div class="skill-name">
                         <h3>CSS</h3>
                         <span>70%</span>
@@ -285,6 +310,7 @@
 
 
                 <div class="skill-card">
+
                     <div class="skill-name">
                         <h3>JavaScript</h3>
                         <span>45%</span>
@@ -298,6 +324,7 @@
 
 
                 <div class="skill-card">
+
                     <div class="skill-name">
                         <h3>Git & GitHub</h3>
                         <span>55%</span>
@@ -319,6 +346,7 @@
         <section class="notes" id="notes">
 
             <div class="section-title">
+
                 <div>
                     <p>QUICK NOTE</p>
                     <h2>Development Notes</h2>
@@ -327,24 +355,26 @@
             </div>
 
             <div class="note">
+
                 <p>
-                    My goal for Week 1 is to create the basic structure of
-                    DevSpace. I am focusing on organising the different sections
-                    before adding responsive design and interactive features in
-                    the coming weeks.
+                    My goal for Week 2 is to make DevSpace responsive. I am
+                    testing the layout on desktop, tablet and mobile screen
+                    sizes and adjusting the design using CSS media queries.
                 </p>
+
             </div>
 
         </section>
 
 
-        <!-- Footer -->
-
         <footer>
-            <p>DevSpace | Frontend Development Project - Week 1</p>
+            <p>DevSpace | Frontend Development Project - Week 2</p>
         </footer>
 
     </main>
+
+
+    <script src="script.js"></script>
 
 </body>
 
