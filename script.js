@@ -1,0 +1,1 @@
+console.log("DevSpace Week 1 loaded successfully.");

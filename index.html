@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevSpace</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>DevSpace</h2>
+            <p>Developer Dashboard</p>
+        </div>
+
+        <nav>
+
+            <a href="#dashboard" class="active">Dashboard</a>
+            <a href="#tasks">My Tasks</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#notes">Notes</a>
+
+        </nav>
+
+        <div class="user">
+            <div class="user-icon">
+                T
+            </div>
+
+            <div>
+                <h4>Tanvi</h4>
+                <p>Frontend Learner</p>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+        <section class="header" id="dashboard">
+
+            <div>
+                <p class="welcome">
+                    Welcome back!
+                </p>
+                <h1>Your Developer Workspace</h1>
+                <p>
+                    Keep track of your projects, tasks and learning progress.
+                </p>
+            </div>
+
+            <div class="week">
+                Week 1
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+
+        <section class="statistics">
+
+            <div class="stat-card">
+                <p>Tasks Completed</p>
+                <h2>12</h2>
+            </div>
+
+            <div class="stat-card">
+                <p>Active Projects</p>
+                <h2>3</h2>
+            </div>
+
+            <div class="stat-card">
+                <p>Current Streak</p>
+                <h2>5 Days 🔥</h2>
+            </div>
+
+        </section>
+
+
+        <!-- Tasks -->
+
+        <section class="tasks" id="tasks">
+
+            <div class="section-title">
+
+                <div>
+                    <p>DAILY WORK</p>
+                    <h2>Today's Tasks</h2>
+                </div>
+
+                <span>3 Tasks</span>
+
+            </div>
+
+
+            <div class="task">
+                <input type="checkbox">
+                <div>
+                    <h3>Plan the DevSpace layout</h3>
+                    <p>
+                        Decide which sections should be included in the dashboard.
+                    </p>
+
+                </div>
+                <span class="tag planning">
+                    Planning
+                </span>
+
+            </div>
+
+
+            <div class="task">
+                <input type="checkbox">
+                <div>
+                    <h3>Create the sidebar</h3>
+                    <p>
+                        Add navigation links for different parts of the dashboard.
+                    </p>
+                </div>
+
+                <span class="tag html">
+                    HTML
+                </span>
+
+            </div>
+
+
+            <div class="task">
+                <input type="checkbox">
+                <div>
+                    <h3>Build dashboard cards</h3>
+                    <p>
+                        Create cards for statistics and project information.
+                    </p>
+                </div>
+
+                <span class="tag layout">
+                    Layout
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+
+        <section class="projects" id="projects">
+
+            <div class="section-title">
+                <div>
+                    <p>MY WORK</p>
+                    <h2>Current Projects</h2>
+                </div>
+            </div>
+
+
+            <div class="project-container">
+                <div class="project-card">
+                    <p class="project-type">
+                        FRONTEND
+                    </p>
+                    <h3>DevSpace Dashboard</h3>
+                    <p>
+                        A dashboard to manage development tasks, projects and skills.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Progress</span>
+                        <span>20%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress progress-20"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+                    <p class="project-type">
+                        LEARNING
+                    </p>
+                    <h3>JavaScript Practice</h3>
+                    <p>
+                        A collection of exercises to improve JavaScript skills.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Progress</span>
+                        <span>45%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress progress-45"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+                    <p class="project-type">
+                        WEB DESIGN
+                    </p>
+                    <h3>Responsive UI Challenge</h3>
+                    <p>
+                        A project focused on learning responsive web design.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Progress</span>
+                        <span>10%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress progress-10"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+
+        <section class="skills" id="skills">
+
+            <div class="section-title">
+
+                <div>
+                    <p>LEARNING PROGRESS</p>
+                    <h2>My Skills</h2>
+                </div>
+
+            </div>
+
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-name">
+                        <h3>HTML</h3>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress html-progress"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-name">
+                        <h3>CSS</h3>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress css-progress"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-name">
+                        <h3>JavaScript</h3>
+                        <span>45%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress javascript-progress"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+                    <div class="skill-name">
+                        <h3>Git & GitHub</h3>
+                        <span>55%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-progress git-progress"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Notes -->
+
+        <section class="notes" id="notes">
+
+            <div class="section-title">
+                <div>
+                    <p>QUICK NOTE</p>
+                    <h2>Development Notes</h2>
+                </div>
+
+            </div>
+
+            <div class="note">
+                <p>
+                    My goal for Week 1 is to create the basic structure of
+                    DevSpace. I am focusing on organising the different sections
+                    before adding responsive design and interactive features in
+                    the coming weeks.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer>
+            <p>DevSpace | Frontend Development Project - Week 1</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
